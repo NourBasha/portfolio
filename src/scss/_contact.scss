@@ -1,0 +1,40 @@
+
+
+
+.contact{
+
+
+    .container{
+
+        margin-top: calc( 100vh - 70vh );
+        .row{
+
+            display: flex;
+            justify-content: center;
+
+            .col{
+
+                .wrapper{
+
+                    .email{
+                        color: $color-white-text;
+                        span{
+                            font-size: 14px;
+                        }
+                    }
+
+                    .phone{
+                      color:  $color-white-text;
+                    }
+
+                    .linkedin{
+                      color:  $color-white-text;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+}

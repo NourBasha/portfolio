@@ -1,0 +1,24 @@
+
+
+
+
+$color-white-text:white;
+
+
+@import './header';
+@import './landing';
+@import './skills';
+@import './latestWork';
+@import './contact';
+
+
+:root{ 
+    background-color: black;
+   
+}
+.App{
+    background-color: black;
+}
+a{
+    color: darken($color: $color-white-text, $amount: 20%);
+}

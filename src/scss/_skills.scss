@@ -1,0 +1,68 @@
+
+.skills{
+
+
+    .container{
+       
+        .skills-row{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 100px;
+            min-height: 400px;
+            .skills-col{
+               
+                text-align: center;
+                .skills-types{     
+                    color: $color-white-text;
+                    font-size: 25px;
+                    display: block;
+                   padding: 5px 0;
+                }
+               
+            }
+        }
+
+          
+         .pdf-row{
+            display: flex;
+            justify-content: center;
+           
+
+            .pdf-col{
+                a{
+                    animation-duration: 1s;
+                    animation-name: fadeIn;
+                    animation-delay: 11.5s;
+                    animation-fill-mode: both;
+                    opacity: 0;
+                    color: $color-white-text;
+                }
+            }
+
+    }   
+
+
+        @keyframes fadeIn {
+
+            0%{
+               
+                opacity: 0;
+            }
+            25%{
+                opacity: .25;
+            }
+            50%{
+                opacity: .5;
+            }
+            75%{
+                opacity: .75;
+            }
+            100%{
+              
+               opacity: 1;
+            }
+
+        }
+    }
+}
